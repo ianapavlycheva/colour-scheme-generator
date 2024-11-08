@@ -33,12 +33,31 @@ form {
   font-weight: bold;
 }
 
+select {
+  font-size: 16px;
+  font-weight: 400;
+  color: #111827;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  height: 42px;
+  width: 300px;
+}
+
 #btn {
   font-size: 12px;
   font-weight: 500;
-  padding: 10px;
+  height: 42px;
   color: #374151;
   background-color: #ffffff;
   border: 1px solid #d1d5db;
   border-radius: 4px;
+}
+
+input {
+  height: 42px;
+  width: 51px;
+  background-color: #ffffff;
+  border: 0.5px solid #313131;
+
+  padding: 0;
 }
