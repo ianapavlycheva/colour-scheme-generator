@@ -38,11 +38,18 @@ form {
 select {
   font-size: 16px;
   font-weight: 400;
-  color: #111827;
+  color: #374151;
   border: 1px solid #d1d5db;
   border-radius: 4px;
   height: 42px;
   width: 300px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+select::-ms-expand {
+  background-color: #ffffff;
 }
 
 #btn {
