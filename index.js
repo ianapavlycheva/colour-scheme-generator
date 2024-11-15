@@ -22,8 +22,6 @@ document.getElementById("form").addEventListener("submit", function (event) {
 
         const hexCode = document.createElement("p");
         hexCode.textContent = colorObj.hex.value;
-        hexCode.style.color = "#000";
-        hexCode.style.marginTop = "5px";
 
         colorContainer.appendChild(colorBox);
         colorContainer.appendChild(hexCode);

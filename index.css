@@ -16,6 +16,8 @@ body {
 form {
   text-align: center;
   margin: 20px;
+  display: flex;
+  gap: 15px;
 }
 
 #colors {
@@ -51,6 +53,7 @@ select {
   background-color: #ffffff;
   border: 1px solid #d1d5db;
   border-radius: 4px;
+  padding: 13px 11px;
 }
 
 input {
@@ -58,6 +61,12 @@ input {
   width: 51px;
   background-color: #ffffff;
   border: 0.5px solid #313131;
-
   padding: 0;
+}
+
+p {
+  color: #2b283a;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 5px;
 }
