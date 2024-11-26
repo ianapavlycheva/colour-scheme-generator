@@ -61,6 +61,19 @@ select::-ms-expand {
   border: 1px solid #d1d5db;
   border-radius: 4px;
   padding: 13px 11px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+#btn:hover {
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+#btn:active {
+  background-color: #e5e7eb;
+  color: #111827;
+  transform: scale(0.97);
 }
 
 input {
